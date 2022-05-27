@@ -2,8 +2,43 @@
     height: auto;
     width: 700px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    row-gap: 20px;
 }
+
+.form-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cf-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cf-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cf-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cf-name,
+#cf-email,
+#cf-number {
+    width: 300px;
+    height: 1.5em;
+}
+
+
+
